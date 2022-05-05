@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 .main-container {
     display: block;     
     width: 100vw;
@@ -68,6 +70,19 @@ padding-top: 10px;
 p {
     margin-bottom: 10px;
     line-height: 1.4rem;
+    color: #333;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#tenho-interesse form {
+  background-color: #254159;
 
 }
 section {
@@ -135,3 +150,11 @@ font-size: 80%;
 display:block;
 
 }
+
+.cognito {
+ height: 400px !important;
+ overflow: hidden !important;
+
+}
+
+
