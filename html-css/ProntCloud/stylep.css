@@ -25,14 +25,17 @@ body {
     float: left;
     padding: 20px;
     width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+    
 }
 
 header {
     background-color: #fff;
     display: block;
     float: left;
-    width: 100%;
     padding: 20px;
+    width: 100%;
     border-bottom: 1px solid #254159;
        
 
@@ -79,9 +82,11 @@ img {
     height: auto;
 }
 
+#tenho-interesse{
+    background-color: #b8c8d6;
+}
 
-
-#tenho-interesse form {
+#tenho-interesse form  {
   background-color: #254159;
 
 }
@@ -155,6 +160,11 @@ display:block;
  height: 400px !important;
  overflow: hidden !important;
 
+}
+
+.container {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 
